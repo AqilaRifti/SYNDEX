@@ -163,7 +163,7 @@ function HeroSection() {
                         transition={{ duration: 0.5, delay: 0.3 }}
                         className='mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row'
                     >
-                        <Button size='lg' className='glow-effect' asChild className='bg-accent'>
+                        <Button size='lg' className='glow-effect bg-accent' asChild>
                             <Link href='/auth/sign-up'>
                                 Start
                                 <IconArrowRight className='ml-2 h-5 w-5' />
