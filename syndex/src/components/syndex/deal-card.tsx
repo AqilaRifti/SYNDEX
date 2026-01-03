@@ -34,7 +34,7 @@ export function DealCard({ deal, index = 0 }: DealCardProps) {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: index * 0.1, duration: 0.3 }}
         >
-            <Link href={`/deals/${deal.id}`}>
+            <Link href={`/dashboard/syndex/deals/${deal.id}`}>
                 <Card className="terminal-window card-hover cursor-pointer group">
                     <CardHeader className="pb-3">
                         <div className="flex items-start justify-between">
